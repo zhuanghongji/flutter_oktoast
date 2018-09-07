@@ -1,6 +1,6 @@
-name: oktoast
+name: ktoast
 description: A pure flutter toast library, easy to use. You can use this library to achieve the same effect as Android toast.
-version: 1.0.2
+version: 1.0.3
 author: Caijinglong<cjl_spy@163.com>
 homepage: https://github.com/CaiJingLong/flutter_oktoast
 email: cjl_spy@163.com
@@ -8,6 +8,8 @@ email: cjl_spy@163.com
 dependencies:
   flutter:
     sdk: flutter
+
+  oktoast: ^1.0.2
 
 dev_dependencies:
   flutter_test:

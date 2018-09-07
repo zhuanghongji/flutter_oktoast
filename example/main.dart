@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ktoast/ktoast.dart';
 import 'package:oktoast/oktoast.dart'; // 1. import library
 
 void main() => runApp(new MyApp());

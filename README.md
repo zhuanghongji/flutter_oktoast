@@ -1,8 +1,24 @@
-# oktoast
+# ktoast
+
+[![pub package](https://img.shields.io/pub/v/ktoast.svg)](https://pub.dartlang.org/packages/ktoast)
 
 A library for flutter.
 
 A pure dart toast Library.
+
+
+## change name
+
+now the ktoast change name to oktoast
+ [![pub package](https://img.shields.io/pub/v/oktoast.svg)](https://pub.dartlang.org/packages/oktoast)
+
+the version 1.0.3 is last version library.
+
+fix all bug.
+
+This library will not be updated.
+
+The library will depend on oktoast library,unchanged usage.
 
 ## screenshot
 
@@ -14,19 +30,19 @@ A pure dart toast Library.
 
 ```yaml
 dependencies:
-  oktoast: ^1.0.1+2
+  ktoast: ^1.0.2
 ```
 
 2.  import library in dart file
 
 ```dart
-import 'package:oktoast/oktoast.dart';
+import 'package:ktoast/ktoast.dart';
 ```
 
 3.  wrap your app widget
 
 ```dart
-OKToast(
+KToast(
   /// set toast style
   child:MaterialApp()
 );
@@ -36,6 +52,7 @@ OKToast(
 
 ```dart
 showToast(context, "content", second: 2, position: ToastPosition.bottom); // position and second have default value, is optional
+// second and position is optional
 ```
 
 ## properties
@@ -52,14 +69,14 @@ child: the application
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:oktoast/oktoast.dart'; // 1. import library
+import 'package:ktoast/ktoast.dart'; // 1. import library
 
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return OKToast(
+    return KToast(
       //2. wrap your app with KToast
       textStyle: TextStyle(fontSize: 19.0, color: Colors.white),
       backgroundColor: Colors.grey,
