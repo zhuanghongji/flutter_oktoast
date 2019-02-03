@@ -1,5 +1,6 @@
 library oktoast;
 
+import 'dart:async';
 import 'dart:collection';
 import 'dart:ui' as ui;
 
