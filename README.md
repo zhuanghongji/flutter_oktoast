@@ -12,15 +12,10 @@ You can completely customize the style of toast.
 
 ## screenshot
 
-default
-![pic](https://raw.githubusercontent.com/CccFans/images/master/img/20181207161700.png)
+default|custom position and widget|gif
+-|-|-
+<img src="https://raw.githubusercontent.com/CccFans/images/master/img/20181207161700.png" width="240"/> | <img src="https://raw.githubusercontent.com/CccFans/images/master/img/20181207161742.png" width="240"/> | <img src="https://raw.githubusercontent.com/CaiJingLong/some_asset/master/ktoast2.gif" width="240"/>
 
-custom position and widget
-![pic](https://raw.githubusercontent.com/CccFans/images/master/img/20181207161742.png)
-
-gif:
-
-![pic](https://raw.githubusercontent.com/CaiJingLong/some_asset/master/ktoast2.gif)
 
 ## about version 1.X.X
 
